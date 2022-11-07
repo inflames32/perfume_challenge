@@ -1,0 +1,11 @@
+@import "vars";
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $cream;
+  height: 100vh;
+}
+@media screen and (min-width: 376px) {
+}
