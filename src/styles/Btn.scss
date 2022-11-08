@@ -1,4 +1,9 @@
 @import "vars";
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Assets/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
 .btn-addtocart {
     background-color: rgb(68, 110, 68);
     border: none;
@@ -6,4 +11,11 @@
     color: white;
     height: 40px;
     width: 100%;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.btn-addtocart > img {
+    margin: 0 20px;
+    line-height: 60px;
 }

@@ -1,12 +1,20 @@
 import Img_mobile from "../Assets/image-product-mobile.jpg";
+import Img_desktop from "../Assets/image-product-desktop.jpg";
 import "../styles/Card.scss";
 import Btn from "./Btn";
 
 export default function Card() {
   return (
     <div className="card">
-      <div className="img_container"></div>
-      {/*  <img src={Img_mobile} alt="photo_parfum" className="card_img" /> */}
+      <div className="img_container">
+        {" "}
+        <img src={Img_mobile} alt="photo_parfum" className="card_img_mobile" />
+        <img
+          src={Img_desktop}
+          alt="photo_parfum"
+          className="card_img_desktop"
+        />
+      </div>
 
       <div className="card_body">
         <div className="card_text">

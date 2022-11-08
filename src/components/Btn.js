@@ -5,7 +5,7 @@ export default function Btn() {
     <>
       <button className="btn-addtocart">
         <img src={cart_img} alt="" />
-        Add to cart
+        Add to Cart
       </button>
     </>
   );
